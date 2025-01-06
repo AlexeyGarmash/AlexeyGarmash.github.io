@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            width: 100%;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin: 20px 0;
+            width: 300px;
+            height:300px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <p>Manga Viewer Rebirth</p>
+</header>
+
+<div class="content">
+    <img class="icon" src="icon_app.png"></img>
+    <p>Функции приложения</p>
+    <ul>
+        <li>Скачивай</li>
+        <li>Сохраняй маоменты</li>
+        <li>Делись</li>
+        <li>Настраивай тип чтения</li>
+        <li>Меняй темы оформления</li>
+    </ul>
+</div>
+
+</body>
+</html>
